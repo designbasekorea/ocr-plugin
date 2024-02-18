@@ -1,0 +1,58 @@
+.thumbnail {
+  max-width: 150px;
+  max-height: 150px;
+  margin: 5px;
+}
+#progressbar {
+  width: 100%;
+  background-color: #f3f3f3;
+  position: relative;
+}
+#progress {
+  width: 0%;
+  height: 30px;
+  background-color: #4caf50;
+  position: absolute;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+.container{
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  padding:0 40px;
+  margin:auto;
+}
+/* 헤더 스타일 */
+header {
+  position: relative;
+  background-color: #fff;
+  border-bottom:1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.logo{
+  line-height: 1;
+  margin:0;
+}
+header nav ul{
+  display: flex;
+  margin:0;
+  gap:24px;
+}
+header nav ul li{
+  list-style: none;
+}
+header a{
+  font-size: 16px;
+  color:#333;
+  text-decoration: none;
+}
+
+/* active 클래스가 추가된 메뉴 */
+header .active {
+  font-weight: bold;
+}

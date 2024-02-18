@@ -1,0 +1,9 @@
+<header>
+  <h1 class="logo"><a href="{{ url_for('index') }}" class="home">로고</a></h1>
+  <nav>
+    <ul>
+      <li class="{{ 'index' == active_page and 'active' }}"><a href="{{ url_for('index') }}">홈</a></li>
+     
+    </ul>
+  </nav>
+</header>
